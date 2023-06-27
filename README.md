@@ -15,7 +15,9 @@
     ```
     bot = QaBot(model='chatglm', doc_path="data/《中华人民共和国民法典》.txt", url='http://127.0.0.1:8000')
 2. chatgpt:
+
     需要修改ApiKey,然后启动chatbot
+
     bot = QaBot(model='chatgpt', doc_path="data/《中华人民共和国民法典》.txt", key='XXXXXXXXXXXX')
 
    
